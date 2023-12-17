@@ -145,23 +145,3 @@ def get_rss_data2(conn: pymysql.connections.Connection = Depends(get_db)):
     
 
 
-# # 별 표시 상태 업데이트 요청을 위한 Pydantic 모델
-# class LikeUpdateRequest(BaseModel):
-#     id: int
-#     like: int
-
-# # 별 표시 상태 업데이트 엔드포인트
-# @app.post("/updateLike")
-# async def update_like(request: LikeUpdateRequest, conn: pymysql.connections.Connection = Depends(get_db)):
-#     article_id = request.id
-#     new_like_status = request.like
-
-#     try:
-#         cursor = conn.cursor()
-#         # 데이터베이스 업데이트 쿼리 실행
-#         cursor.execute("UPDATE story SET STAR = %s WHERE STORY_ID = %s", (new_like_status, article_id))
-#         conn.commit()
-#         return {"success": True, "id": article_id, "like": new_like_status}
-#     except Exception as e:
-#         conn.rollback()
-#         raise HTTPException(status_code=500, detail=str(e))
