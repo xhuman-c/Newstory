@@ -928,7 +928,7 @@ function displayModal(categories, categoryIndex, profileIndex, index) {
       updateStory();
       // 타이머가 만료되면 다시 타이머를 시작합니다.
       resetTimer();
-    }, 10000); // 10초 타이머 설정
+    }, 70000); // 7초 타이머 설정
   }
 
   function stopTimer() {
