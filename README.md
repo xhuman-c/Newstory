@@ -8,12 +8,17 @@
 - backend 
 - frontend
 - model-kpfbert
+  
     ㄴ SUM
+  
     ㄴ NER 
 
 # Installaton
-    git clone https://github.com/KPFBERT/kpfbertsum.git # model-kpfbert/kpfbert-base 모델은 위 화면에 다운로드 해야 한다. 
-    git clone https://github.com/xhuman-c/Newstory.git
+    git clone https://github.com/KPFBERT/kpfbertsum.git # 크기가 큰 model-kpfbert/kpfbert-base 모델은 여기서 다운로드 해야 한다. 
+    git clone https://github.com/xhuman-c/Newstory.git  # newstory 파일 
+
+
+# 
 
 
     
