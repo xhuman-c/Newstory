@@ -8,8 +8,10 @@
 - backend 
 - frontend
 - model-kpfbert
+
   
     ㄴ SUM
+
   
     ㄴ NER 
 
