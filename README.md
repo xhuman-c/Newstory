@@ -39,11 +39,13 @@
 
 ## server
 빠른 연결을 위해 FastAPI 사용
-서버연결시 터미널 창에 다음 입력.
 
+
+서버연결시 터미널 창에 다음 입력.
 
     pip install fast api
     pip install uvicorn
-  
-  
     uvicorn main:app --reload 
+
+
+
