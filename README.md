@@ -6,9 +6,12 @@
 
 ## 구성 
 - backend 
-- front
-- server
+- frontend
+- model-kpfbert
+    ㄴ SUM
+    ㄴ NER 
 
 # Installaton
     git clone https://github.com/xhuman-c/Newstory.git
-  
+* 주의 : model-kpfbert/kpfbert-base 모델은 아래에서 다운받아서 설치해야 한다.
+    git clone https://github.com/KPFBERT/kpfbertsum.git
