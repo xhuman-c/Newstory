@@ -23,12 +23,16 @@
 ## requirements
     !pip  install pytorch-lightning==1.2.8
     !pip  install transformers
+
+    
 파이썬 버전 3.7로 설치 
+
+
     !wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
     !tar xvfz Python-3.7.0.tgz
     !Python-3.7.0/configure
-  !make
-  !sudo make install
+    !make
+    !sudo make install
 
 
     
